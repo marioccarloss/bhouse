@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+  color: inherit;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+body {
+  font-size: 12px;
+}
+button {
+  background: none;
+  cursor: pointer;
+}
+mark {
+  background: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+input {
+  background: none;
+  border-radius: 0;
+}
+button,
+input[type="submit"],
+input[type="text"] {
+  -webkit-appearance: none;
+}
+textarea {
+  font-family: inherit;
+  background-color: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+}
+p {
+  width: 100%;
+}
+img {
+  width: auto;
+  height: auto;
+}
+@font-face {
+  font-family: "Albert Sans";
+  src: url("../../fonts/AlbertSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Albert Sans";
+  src: url("../../fonts/AlbertSans-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everett";
+  src: url("../../fonts/Everett-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everett";
+  src: url("../../fonts/Everett-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everett";
+  src: url("../../fonts/Everett-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* 636px */
+/*  840px */
+/* 1282px */
+/* 1330px */
+/* 1494px */
+/* 1530px */
+/* 1600px */
+/* 1632px */
+/* Display */
+/* Display 1 */
+/* H1 */
+/* H2 */
+/* H3 */
+/* H4 */
+/* H5 */
+/* H6 */
+/* H7 */
+.eff-init_trans * {
+  transition: none !important;
+}
+html {
+  font-size: 62.5%;
+}
+html.over-hidden {
+  overflow: hidden;
+}
+html body {
+  font: 10px "";
+}
+html main {
+  position: relative;
+}
+p {
+  margin-bottom: 2.6rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+[id^="sta"] {
+  position: fixed;
+  top: 0;
+  left: -99px;
+}
+[class^="mdl-"] {
+  padding: 6.4rem 4rem;
+}
+@media (max-width: 1194px) {
+  [class^="mdl-"] {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+}
+@media (max-width: 767px) {
+  [class^="mdl-"] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.eff-init_trans * {
+  transition: none !important;
+}
+.js-seeMore .js-seeMore--content {
+  overflow: hidden;
+}
+.js-seeMore .js-seeMore--trigger {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.js-seeMore .js-seeMore--trigger .js-seeMore--less {
+  display: none;
+}
+.js-seeMore .js-seeMore--trigger.v-open .js-seeMore--more {
+  display: none;
+}
+.js-seeMore .js-seeMore--trigger.v-open .js-seeMore--less {
+  display: inline;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

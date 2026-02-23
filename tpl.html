@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="http://www.emascaro.com" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <section class="mdl-booking-house">
+      <div class="m-content">
+        <!-- Header Group -->
+        <article class="m-header-group">
+          <header>4 pasos sencillos para reservar tu casa</header>
+          <section class="m-subtitle">
+            <p>Alquilar con Yaya House es simple, claro y transparente</p>
+          </section>
+
+          <div class="m-filters">
+            <button class="m-pill v-active" type="button"><span class="m-dot"></span>STAY</button>
+            <button class="m-pill" type="button"><span class="m-dot"></span>SPOT</button>
+            <button class="m-pill" type="button"><span class="m-dot"></span>FLEX</button>
+          </div>
+        </article>
+
+        <!-- Sticky Scrollytelling Section -->
+        <div class="m-sticky-container">
+          <div class="m-sticky-stage">
+            <!-- 1. Number Slot Machine (Left) -->
+            <div class="m-slot-machine">
+              <span class="m-label">PASO</span>
+              <div class="m-slot-window">
+                <div class="m-slot-strip">
+                  <div class="m-num">01</div>
+                  <div class="m-num">02</div>
+                  <div class="m-num">03</div>
+                  <div class="m-num">04</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Image Wheel (Center - Swiper) -->
+            <div class="m-gallery-wheel">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- Step 1 -->
+                  <div class="swiper-slide m-item" data-step="0" data-number="01">
+                    <figure>
+                      <img
+                        src="./reserva.jpg"
+                        alt="Reserva"
+                        width="624"
+                        height="468"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <!-- Step 2 -->
+                  <div class="swiper-slide m-item" data-step="1" data-number="02">
+                    <figure>
+                      <img
+                        src="./contrato.jpg"
+                        alt="Contrato"
+                        width="624"
+                        height="468"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <!-- Step 3 -->
+                  <div class="swiper-slide m-item" data-step="2" data-number="03">
+                    <figure>
+                      <img
+                        src="./scoring.jpg"
+                        alt="Scoring"
+                        width="624"
+                        height="468"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </div>
+                  <!-- Step 4 -->
+                  <div class="swiper-slide m-item" data-step="3" data-number="04">
+                    <figure>
+                      <img src="./firma.jpg" alt="Firma" width="624" height="468" loading="lazy" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Text Descriptions (Bottom/Right) -->
+            <div class="m-text-content">
+              <article class="m-step-text v-active" data-step="0">
+                <header>Reserva</header>
+                <section>
+                  <p>
+                    Abonarás la fianza/reserva que corresponde a la mensualidad de la vivienda.
+                    Mandar siguiente documentación: DNI de los firmantes, últimas 3 nóminas de los
+                    firmantes, si eres autónomo, modelo 303 y modelo 100.
+                  </p>
+                </section>
+              </article>
+
+              <article class="m-step-text" data-step="1">
+                <header>Contrato</header>
+                <section>
+                  <p>Te enviamos el contrato de reserva para que lo firmes digitalmente.</p>
+                </section>
+              </article>
+
+              <article class="m-step-text" data-step="2">
+                <header>Scoring</header>
+                <section>
+                  <p>Se envía la documentación al seguro para estudio del scoring.</p>
+                </section>
+              </article>
+
+              <article class="m-step-text" data-step="3">
+                <header>Firma</header>
+                <section>
+                  <p>
+                    Se procede a firmar el contrato de arrendamiento digitalmente. Condiciones: Hay
+                    que tener contratado un seguro de impago y seguro de hogar, los suministros
+                    están incluidos.
+                  </p>
+                </section>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
